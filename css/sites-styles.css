@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/wax4mji.css");
 body {
-    font-size: 24px;
-    font-family: "refrigerator-deluxe", sans-serif;
+    font-size: 18px;
+    font-family: "semplicitapro", sans-serif;
     font-weight: 400;
     font-style: normal;
     height: 100vh;
@@ -91,6 +91,7 @@ dl div{
 
 
 dt{
+    font-family: "refrigerator-deluxe", sans-serif;
     padding: 1em .5em;
     color: #ffffff;
     background-color: rgb(0, 0, 0);;
@@ -103,7 +104,7 @@ dd{
 }
 
 .penguin-header{
-   
+    font-family: "refrigerator-deluxe", sans-serif;
     color: white;
     background-color: #000;
 
@@ -118,7 +119,7 @@ dd{
     height: 18vh;
     text-indent: -2000px;
 }
-.penguin-header nav{
+.penguin-header nav div{
     margin-left: auto;
     margin-right: 2.5rem;
     font-size: 1.7rem;
@@ -126,7 +127,10 @@ dd{
     align-items: flex-end;
     justify-content: flex-end;
 }
-
+.penguin-header nav {
+    margin-top: auto;
+    margin-bottom: 1.75rem;
+}
 .penguin-header nav a{
     border: rgb(220, 220, 220) solid 2px;
     color: rgb(220, 220, 220);
@@ -143,7 +147,8 @@ dd{
 }
  .masthead{
     background-image:none;
-   padding: 1rem;
+    padding: 1rem;
+    font-family: "refrigerator-deluxe", sans-serif;
  }
  .masthead span{
     display:block;
@@ -233,9 +238,14 @@ dd{
     display: flex;
     flex-direction: column;
     align-content: center;
+    font-size: 1rem;
+}
+.portfolio-top div:first-child, .portfolio-card a{
+    font-family: "refrigerator-deluxe", sans-serif;
 }
 
 .portfolio-card h2{
+    font-family: "refrigerator-deluxe", sans-serif;
     font-size: 200%;
     text-align: center;
     border-bottom: .05em rgb(16, 58, 79) solid; 
@@ -405,6 +415,7 @@ width:27%;
     padding-inline-start: 0;
 }
 .resume h2{
+    font-family: "refrigerator-deluxe", sans-serif;
     width: 100%;
     text-align: center;
 }
@@ -450,6 +461,7 @@ width:27%;
 } 
 
 .resume-header, h2 {
+    font-family: "refrigerator-deluxe", sans-serif;
     color:#fff;
     background-color: #000;
     width: 100%;
@@ -472,3 +484,11 @@ width:27%;
   }
 
   footer{ background-color: #000;}
+
+  #sidebar-wrapper {
+    background-color: #000 ;
+  }
+
+  .btn-lg {
+    font-size: 2.5rem;
+  }

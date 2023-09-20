@@ -7,6 +7,7 @@
         <meta name=”description” content="Creative fullstack web developer in Eugene, 
     Oregon building quality custom front-end web applications with nifty databases and accessible web design.">
         <title>Mara Williams</title>
+        <link rel="stylesheet" href="https://use.typekit.net/wax4mji.css">
         <script src="https://carrier.formcarry.com/js/v1.js"></script>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -27,15 +28,17 @@
             <div class="p-2">
                 <a href="index.html" class="branding-imgReplace">Mara Williams</a>
             </div>
-            <nav class="container">
+            <nav class="container d-sm-none d-md-block">
+                <div class="">
                     <a href="#portfolio">projects</a>
                     <a href="#about">about</a>
                     <a href="#resume">resume</a>
                     <a href="#contact">contact</a>
+                </div>
             </nav>
         </header>
         <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <a class="menu-toggle rounded d-md-none" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
@@ -71,11 +74,13 @@
         </header>
         <!-- About-->
         <section class="content-section bg-light" id="about">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">About</h2>
+            </div>
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>About</h2>
-                        <p class="lead mb-5">
+                        <p class="mb-5">
                            I&apos;m an illustrator and computer programmer. I doodle a lot. Always have. After my first-round of college (for Medieval Studies), I started making zines and sharing my cartoons. It&apos;s one of the primary ways I think. 
                                     Sometimes I draw a character I call &ldquo;squid-in-a-bucket.&rdquo; It&apos;s a simple joke - here is a squid who has to bring their environment everywhere they go. The squid&apos;s bucket always has a puddle of 
                                     water underneath it. I love squid in a bucket.  It resonates with my experience of the world - I need to bring my own water with me.
@@ -118,15 +123,15 @@
                 <!-- Nav tabs -->
                   <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                      <button class="nav-link active" id="nav-current-tab" data-bs-toggle="tab" data-bs-target="#nav-current" type="button" role="tab" aria-controls="nav-current" aria-selected="true">Current education</button>
-                      <button class="nav-link" id="nav-skills-tab" data-bs-toggle="tab" data-bs-target="#nav-skills" type="button" role="tab" aria-controls="nav-skills" aria-selected="false">Skills</button>
+                      <button class="nav-link " id="nav-current-tab" data-bs-toggle="tab" data-bs-target="#nav-current" type="button" role="tab" aria-controls="nav-current" aria-selected="true">Current education</button>
+                      <button class="nav-link active" id="nav-skills-tab" data-bs-toggle="tab" data-bs-target="#nav-skills" type="button" role="tab" aria-controls="nav-skills" aria-selected="false">Skills</button>
                       <button class="nav-link" id="nav-past-tab" data-bs-toggle="tab" data-bs-target="#nav-past" type="button" role="tab" aria-controls="nav-past" aria-selected="false">Past education</button>
                       <button class="nav-link" id="nav-exp-tab" data-bs-toggle="tab" data-bs-target="#nav-exp" type="button" role="tab" aria-controls="nav-exp" aria-selected="false">Experience</button>
 
                     </div>
                   </nav>
                   <div class="tab-content text-dark" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-current" role="tabpanel" aria-labelledby="nav-current-tab">
+                    <div class="tab-pane fade " id="nav-current" role="tabpanel" aria-labelledby="nav-current-tab">
                         <div class="row">
                             <div class="col-lg-2"></div>
                             <div class="card my-2 col-lg-8 px-0 shadow-lg">
@@ -253,7 +258,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">
+                    <div class="tab-pane fade show active" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">
                         <div>
                             <dl class="d-flex justify-content-center flex-wrap skills-row">
                                 <div class="flex-fill  col-sm-4 skills-col">
@@ -350,7 +355,7 @@
                 <h2 class="mx-auto mb-5">
                    I do art and graphic design too!
                 </h2>
-                <!--a class="btn btn-primary btn-lg" href="#">That's cool</a-->
+                
             </div>
         </section>
         <!-- Portfolio-->
@@ -380,7 +385,7 @@
                         <div class="portfolio-top d-flex flex-column">
                             
                                 <div class="h2">Butter Mountain</div>
-                                <p class="mb-0">This is a project I worked on in two web development classes. It uses ASP.NET Core, Entity Framework, and a MySQL database. This website allows me to upload original recipes and keep a log when I make the recipe.. but get creative with ingredients and techniques. </p>
+                                <p class="mb-1">This is a project I worked on in two web development classes. It uses ASP.NET Core, Entity Framework, and a MySQL database. This website allows me to upload original recipes and keep a log when I make the recipe.. but get creative with ingredients and techniques. </p>
                         </div>
                         
                             <div class="caption">
@@ -394,7 +399,7 @@
                     <div class="col-lg-5 portfolio-card">
                         <div class="portfolio-top d-flex flex-column">
                             <h3>How to Build A Wood Chipper in Excel (not really a wood chipper)</h3>
-                            <p class="mb-0">Presentation about Excel and Acrobat workflow to avoid seemingly endless Ctrl C + Ctrl V</p>
+                            <p class="mb-1">Presentation about Excel and Acrobat workflow to avoid seemingly endless Ctrl C + Ctrl V</p>
                         </div>
                         
                             <div class="caption">
@@ -484,7 +489,7 @@
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                             </div>
                               <div class="d-grid">
-                                <button class="btn btn-secondary btn-block mb-3" id="submitButton" type="submit">Submit</button>
+                                <button class="btn btn-lg btn-secondary btn-block mb-3" id="submitButton" type="submit">Submit</button>
                               </div>
                             
                             </form>
